@@ -1,5 +1,8 @@
 #!/bin/bash
 
+
+ # Docker setup script for Scaffold-ETH on Linux
+
 DOCKER_IMAGE=$(docker ps --filter name=SCAFFOLD_ETH -q)
 
 if [ "$1" = "start" ]; then
